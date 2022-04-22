@@ -31,15 +31,11 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-kleo normal-nav">
       <div class="container">
-        <a href="#" class="navbar-brand logo">
-          <img
-            src="./images/kleo-logo.png"
-            alt="Kleo logo"
-            height="21"
-          />
+        <a class="navbar-brand logo" href="">
+          <img src="./images/kleo-logo.png" height="21" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler collapsed"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -49,7 +45,12 @@
         >
           <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div
+          class="navbar-collapse collapse"
+          id="navbarSupportedContent"
+          style=""
+        >
           <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
             <li class="nav-item active">
               <a href="#top" class="nav-link">Home</a>
@@ -165,7 +166,7 @@
     </section>
     <!-- About End -->
     <!-- Services Start -->
-    <services class="section" id="services">
+    <section class="section" id="services">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 col-md-8">
@@ -225,7 +226,7 @@
           </div>
         </div>
       </div>
-    </services>
+    </section>
     <!-- Services End -->
     <!-- Accomplished Start -->
     <section class="section accomplished-bg">
@@ -233,7 +234,7 @@
         <div class="row align-items-center">
           <div class="col-lg-3 col-md-6">
             <div
-              class="accomplished-counter-box text-center px-4 py-5 mb-0 mb-lg-0"
+              class="accomplished-counter-box text-center px-4 py-5 mb-5 mb-lg-0"
             >
               <div class="text-white">
                 <i
@@ -250,7 +251,7 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div
-              class="accomplished-counter-box text-center px-4 py-5 mb-0 mb-lg-0"
+              class="accomplished-counter-box text-center px-4 py-5 mb-5 mb-lg-0"
             >
               <div class="text-white">
                 <i
@@ -267,7 +268,7 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div
-              class="accomplished-counter-box text-center px-4 py-5 mb-0 mb-lg-0"
+              class="accomplished-counter-box text-center px-4 py-5 mb-5 mb-lg-0"
             >
               <div class="text-white">
                 <i
@@ -284,7 +285,7 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div
-              class="accomplished-counter-box text-center px-4 py-5 mb-0 mb-lg-0"
+              class="accomplished-counter-box text-center px-4 py-5 mb-5 mb-lg-0"
             >
               <div class="text-white">
                 <i
@@ -349,20 +350,20 @@
                 ></button>
               </div>
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="item carousel-item active">
                   <div class="img-box">
                     <img src="./images/client.jpg" alt="client" />
-                    <p class="testimonial">
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nam eu sem tempor, varius quam at, luctus dui. Mauris
-                      magna metus, dapibus nec turpis vel, semper malesuada
-                      ante. Idac bibendum scelerisque non non purus. Suspendisse
-                      varius nibh non aliquet."
-                    </p>
-                    <p class="overview">
-                      <strong>Kit Johnson</strong>, Account Analyst
-                    </p>
                   </div>
+                  <p class="testimonial">
+                    "Vestibulum quis quam ut magna consequat faucibus.
+                    Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus
+                    dictum risus. Pellentesque viverra sagittis quam at mattis.
+                    Suspendisse potenti. Aliquam sit amet gravida nibh,
+                    facilisis gravida odio."
+                  </p>
+                  <p class="overview">
+                    <strong>Kit Johnson</strong>, Account Analyst
+                  </p>
                 </div>
                 <div class="item carousel-item">
                   <div class="img-box">
@@ -392,7 +393,7 @@
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
+                class="carousel-control-prev carousel-control"
                 type="button"
                 data-bs-target="#my-carousel"
                 data-bs-slide="prev"
@@ -401,7 +402,7 @@
                 <span class="visually-hidden">Previous</span>
               </button>
               <button
-                class="carousel-control-next"
+                class="carousel-control-next carousel-control"
                 type="button"
                 data-bs-target="#my-carousel"
                 data-bs-slide="next"
@@ -454,7 +455,7 @@
               </p>
             </div>
           </div>
-          <div class="col-mg-7 offset-lg-1">
+          <div class="col-lg-7 offset-lg-1">
             <div class="custom-form mt-4 mt-lg-0">
               <form>
                 <div class="col-lg-12">
